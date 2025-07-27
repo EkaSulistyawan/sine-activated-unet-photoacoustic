@@ -1,21 +1,15 @@
 # sine-activated-unet-photoacoustic
-Official page for DL model with sine activation function on UNET for high-frequency photoacoustics.
+Official page for DL model with sine activation function on UNET for high-frequency photoacoustics. All scripts were compiled as a Jupyter notebook. Follow all cells sequentially to do your training and testing.
 
-# Pre-requisite and Installation
+# Training & testing
+To train the model, simply run `training.ipynb`. It will export the model into the `./trained_model/`. 
 
-# Run your first training
-To do: 
-1. Give the bare minimum code to train the model
-2. Make an output saved model
+Once exporting the trained model, run the `testing.ipynb` to test. Inside the testing notebook, you will be able to modify:
+1. Reconstruction parameters such as FOV, speed of sound, and reconstruction resolution.
+2. Three data cases were given: leaf phantom, spiral phantom and in vivo. All mentioned dataset were discussed in the main paper. All dataset comply with Verasonic's Vantage VRS file specification.
+3. Evaluation script for CNR and SSIM were given.
 
-# Test your trained model
-To do:
-1. Give example code for testing
-2. Give the evaluation code, e.g. SSIM, CNR, Reference, etc
-3. Open the study case mentioned in the paper
+# Optimization
 
-# Export your model for optimized beamforming
-1. Share the C++ page
-2. Show the export method
 
 # Reference paper
