@@ -9,7 +9,4 @@ Once exporting the trained model, run the `testing.ipynb` to test. Inside the te
 2. Three data cases were given: leaf phantom, spiral phantom and in vivo. All mentioned dataset were discussed in the main paper. All dataset comply with Verasonic's Vantage VRS file specification.
 3. Evaluation script for CNR and SSIM were given.
 
-# Optimization
-
-
 # Reference paper
