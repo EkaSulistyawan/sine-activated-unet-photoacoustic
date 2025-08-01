@@ -1,4 +1,4 @@
-![Real-time 3D enhanced in-vivo imaging](gif/output.gif)
+![Real-time 3D enhanced in-vivo imaging](gif/demo.gif)
 # sine-activated-unet-photoacoustic
 Official page for DL model with sine activation function on UNET for high-frequency photoacoustics. All scripts were compiled as a Jupyter notebook. Follow all cells sequentially to do your training and testing.
 
